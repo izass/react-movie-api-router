@@ -8,6 +8,37 @@
   pointer-events: none;
 }
 
+.Header-image {
+  background-image: url(./images/avengers-infinity-war3.jpg); 
+}
+
+.MyBody {  
+  background: black;
+  min-height: 100vh;
+}
+
+
+.Title {
+  margin-top:450px;
+  text-align: center;
+  color: white;
+}
+
+.nav .navbar-nav>li>a{
+  color: white;
+  font-size: 1.5em;
+}
+
+.nav .navbar-brand {
+  color: white;
+  font-size: 1.5em;
+}
+
+.GridMovies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
